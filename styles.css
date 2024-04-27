@@ -56,7 +56,7 @@ body {
   top: -250px;
   left: -100px;
   border-radius: 150px;
-  background: #ffd600;
+  background: #ff000a8f;
   animation: rotate 30s linear infinite;
 }
 .wave-card-shape:nth-child(1) {
@@ -89,10 +89,10 @@ body {
     z-index: 4; 
 }
 .profile-image img {
-    widht: 125px;
+    width: 125px;
     height: 125px;
     border-radius: 50%; 
-    border: 2px solid black
+    border: 0px solid black
 }
 
 .contact-icons {
@@ -103,4 +103,23 @@ body {
 }
 .contact-icons a {
     font-size: 25px;
+}
+
+.contact-icons a.wa:hover {
+  color: #25d366;
+}
+.contact-icons a.mail:hover {
+  color: #d32525;
+}
+
+.contact-icons a.mobile:hover {
+  color: #fffb00;
+}
+
+.contact-icons a.github:hover {
+  color: #ff00d4;
+}
+
+.wave-card-title{
+    font-size: medium;
 }
